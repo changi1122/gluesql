@@ -219,8 +219,16 @@ macro_rules! generate_store_tests {
             ast_builder::function::datetime::conversion
         );
         glue!(
+            ast_builder_function_math_basic_arithmetic,
+            ast_builder::function::math::basic_arithmetic
+        );
+        glue!(
             ast_builder_function_math_conversion,
             ast_builder::function::math::conversion
+        );
+        glue!(
+            ast_builder_function_datetime_formatting,
+            ast_builder::function::datetime::formatting
         );
         glue!(
             ast_builder_function_text_trimming,
